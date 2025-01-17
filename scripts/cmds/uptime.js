@@ -23,6 +23,6 @@ module.exports = {
     const hours = Math.floor((uptime / (60 * 60)) % 24);
     const days = Math.floor(uptime / (60 * 60 * 24));
     const uptimeString = `${hours} hours ${minutes} minutes ${seconds} second`;
-    api.sendMessage(`hello user, the bot has been running for ${uptimeString}.`, event.threadID);
+    api.sendMessage(`hello Master Lawkey Marvellous, I, 𝕃𝕒𝕨𝕜𝕖𝕪 𝕔𝕒𝕝𝕪𝕩 has been running for ${uptimeString}.`, event.threadID);
   }
 };
