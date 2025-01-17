@@ -2,14 +2,19 @@ module.exports = {
   config: {
     name: "offbot",
     version: "1.0",
-    author: "Samir",
+    author: "Lawkey Marvellous",
     countDown: 45,
-    role: 2,
+    role: 0,
     shortDescription: "Turn off bot",
     longDescription: "Turn off bot",
     category: "owner",
     guide: "{p}{n}"
   },
   onStart: async function ({event, api}) {
-    api.sendMessage("╔════ஜ۩۞۩ஜ═══╗\n\n📴Successfully Turned Off Archives System ✅\n╚════ஜ۩۞۩ஜ═══╝",event.threadID, () =>process.exit(0))}
+    const permission = ["100084209545254"];
+  if (!permission.includes(event.senderID)) {
+    api.sendMessage("Chick 🐔 You don't have enough permission to use this command. Only ʚɸɞ Lawkey Marvellous ʚɸɞ can do it.", event.threadID, event.messageID);
+    return;
+  }
+    api.sendMessage("Successfully Turned Off Marwa System ✅",event.threadID, () =>process.exit(0))}
 };
