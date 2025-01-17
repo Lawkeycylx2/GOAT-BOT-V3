@@ -38,13 +38,13 @@ module.exports = {
 			listAdmin: "👑 | Danh sách admin:\n%1"
 		},
 		en: {
-			added: "✅ | Added admin role for %1 users:\n%2",
-			alreadyAdmin: "\n⚠️ | %1 users already have admin role:\n%2",
-			missingIdAdd: "⚠️ | Please enter ID or tag user to add admin role",
-			removed: "✅ | Removed admin role of %1 users:\n%2",
-			notAdmin: "⚠️ | %1 users don't have admin role:\n%2",
-			missingIdRemove: "⚠️ | Please enter ID or tag user to remove admin role",
-			listAdmin: "👑 | List of admins:\n%1"
+			added: "✅ | Master Lawkey Added admin role for %1 users:\n%2",
+			alreadyAdmin: "\n⚠️ | %1 Master Lawkey users already have admin role:\n%2",
+			missingIdAdd: "⚠️ | Master Lawkey Please enter ID or tag user to add admin role",
+			removed: "✅ | Master Lawkey Removed admin role of %1 users:\n%2",
+			notAdmin: "⚠️ | %1 Master Lawkey users don't have admin role:\n%2",
+			missingIdRemove: "⚠️ | Master Lawkey Please enter ID or tag user to remove admin role",
+			listAdmin: "👑 | List of admins on Master Lawkey Marvellous's bot:\n%1"
 		}
 	},
 
