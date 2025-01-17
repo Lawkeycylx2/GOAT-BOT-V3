@@ -30,18 +30,18 @@ module.exports = {
     const { senderID } = event;
     const userData = await usersData.get(senderID);
     const userMoney = await usersData.get(event.senderID, "money");
-    if (userMoney < 50) return api.sendMessage("You don't have enough balance to use this command. This command costs $50.\n Check your bot balance by typing *bal.\n To earn balance, you can play games or claim daily rewards by typing *daily.\n Available games to play are *quiz and *play. ", event.threadID, event.messageID);
+    if (userMoney < 50) return api.sendMessage("You don't have enough balance to use this command. This command costs $50.\n Check your bot balance by typing !bal.\n To earn balance, you can play games or claim daily rewards by typing !daily.\n Available games to play are !quiz and !play. \n or type !callad i need money and my master Lawkey Marvellous shall answer you 😁 ", event.threadID, event.messageID);
     else {
       usersData.set(event.senderID, {
         money: userData.money - 50,
         data: userData.data
       }); 
       if (args.length === 0) {
-        message.reply(`Please ask a question or add some text.`);
+        message.reply(`𝕃𝕒𝕨𝕜𝕖𝕪 𝕔𝕒𝕝𝕪𝕩 here ! Please ask a question or add some text.`);
         return;
       }
       if (args.length === 1) {
-        message.reply(`Hi there! How can I help you?`);
+        message.reply(`Hey this is lawkey calyx, Hi there! How can I help you?`);
         return;
       }
 
