@@ -17,12 +17,12 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100084209545254",
-    "61550646484601"
+    "100052127176289",
+    "100084209545254"
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [100084209545254],
+    "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "𝕃𝕒𝕨𝕜𝕖𝕪 𝕔𝕒𝕝𝕪𝕩",
